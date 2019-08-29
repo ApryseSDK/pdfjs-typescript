@@ -1,0 +1,38 @@
+body {
+    text-align: center
+}
+
+.grey-back {
+    background-color: lightgrey;
+}
+
+.outer {
+    display: inline-block;
+    border: 2px solid darkgray;
+}
+
+.actions {
+    display: inline-block;
+    text-align: left;
+}
+
+.pg_num_display {
+    display: inline-block;
+    text-align: right;
+}
+
+button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: white; 
+    color: black;
+}
+
+.action_button {
+    background-color: grey;
+    color: white;
+}
+  

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <title>PDF.js Example</title>
+  <script src="pdf.js"></script>
+  <script> var exports = {}; </script>
+  <script src="renderer.js"></script>
+</head>
+<body>
+  <div>
+    <span  class="outer">
+    <div  class="grey-back">
+      <div class="actions">
+       <button id="prev" class="action_button">Previous</button>
+       <button id="next" class="action_button">Next</button>
+      </div>
+      <div class="pg_num_display">
+        <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+      </div>
+    </div>
+    <div>
+      <canvas id="pdf" class="grey-back"></canvas>
+    </div>
+    </span>
+  </div>
+</body>
+</html>
